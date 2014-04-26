@@ -1,0 +1,14 @@
+1: dload 4
+2: store 0
+3: store 1
+4: dload 1
+5: store 2
+6: load 1
+7: sub 2
+8: jle 13
+9: store 1
+10: mult 0
+11: store 0
+12: jump 6
+13: load 0
+14: end

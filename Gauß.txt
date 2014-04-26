@@ -1,0 +1,14 @@
+1: dload n
+2: store 0
+3: dload 1
+4: store 2
+5: load 0
+6: jgt 9
+7: load 1
+8: end
+9: add 1
+10: store 1
+11: load 0
+12: sub 2
+13: store 0
+14: jump 6
